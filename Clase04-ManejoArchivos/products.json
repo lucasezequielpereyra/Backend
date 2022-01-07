@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Celular",
+    "price": 500,
+    "thumbnail": "https://via.placeholder.com/140x100",
+    "id": 1
+  },
+  {
+    "title": "Computadora",
+    "price": 2500,
+    "thumbnail": "https://via.placeholder.com/140x100",
+    "id": 2
+  },
+  {
+    "title": "Notebook",
+    "price": 3500,
+    "thumbnail": "https://via.placeholder.com/140x100",
+    "id": 3
+  }
+]
