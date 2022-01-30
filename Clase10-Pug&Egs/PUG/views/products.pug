@@ -1,0 +1,17 @@
+extends layouts/main.pug
+
+block vista
+  h3.container
+    | Lista de Productos
+  if productos
+    .cart-container.container-lg
+      each prd in productos
+        .cart-item
+          img(src=prd.img alt='Imagen Producto')
+          span=prd.name
+          span=prd.price
+  else
+    h5.container No hay productos agregados
+
+  a.btn.btn-danger.btn-custom(href='http://localhost:8080/')
+    | Agregar Producto

@@ -1,0 +1,22 @@
+extends layouts/main.pug
+
+block vista
+  .encabezado-form.container-lg
+    h3 Agregar Productos
+  form(action='/api/products/add/' method='POST')
+    .form-group
+      label.col-lg-2(for='input-name') Nombre
+      .col-lg-5
+        input#input-name.form-control(type='text' placeholder='Nombre del producto' name='name')
+    .form-group
+      label.col-lg-2(for='input-price') Precio
+      .col-lg-5
+        input#input-price.form-control(type='number' placeholder='Precio del producto' name='price')
+    .form-group
+      .col-lg-offset-2.col-lg-10
+        button.btn.btn-success(type='submit')
+          | Enviar
+        button.btn.btn-secondary(type='reset')
+          | Resetear
+        a.btn.btn-danger(href='./api/products/')
+          | Ver Productos

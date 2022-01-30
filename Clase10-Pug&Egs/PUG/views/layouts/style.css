@@ -1,0 +1,32 @@
+.cart-item {
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.cart-item img {
+  max-width: 5vh;
+  width: 200px;
+  margin: 0 20px;
+}
+.cart-item span {
+  margin: auto;
+  width: 150px;
+  text-align: center;
+}
+.cart-container {
+  margin: 1rem;
+}
+h3 {
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+.btn-custom {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  margin-right: 1rem;
+}

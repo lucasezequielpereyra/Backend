@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("template/head") %>
+  <body>
+    <h3 class="container">Lista de Productos</h3>
+
+    <% if(productos){ %>
+    <div class="cart-container container-lg">
+      <% productos.forEach(function(producto) {%>
+      <div class="cart-item">
+        <img src="<%=producto.img %>" alt="Imagen Producto" />
+        <span> <%=producto.name %> </span>
+        <span> <%=producto.price %> </span>
+      </div>
+      <%});%>
+    </div>
+    <% } else{ %>
+    <h5 h5 class="container">No hay productos agregados</h5>
+    <% } %>
+
+    <a href="http://localhost:8080/" class="btn btn-danger btn-custom"> Agregar Producto </a>
+  </body>
+</html>
