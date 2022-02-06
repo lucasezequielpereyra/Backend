@@ -1,0 +1,25 @@
+<h3 class='container'>
+  Lista de Productos
+</h3>
+
+{{#if productos}}
+  <div class='cart-container container-lg'>
+    {{#each productos}}
+      <div class='cart-item'>
+        <img src={{img}} alt='Imagen Producto' />
+        <span>
+          {{name}}
+        </span>
+        <span>
+          ${{price}}
+        </span>
+      </div>
+    {{/each}}
+  </div>
+{{else}}
+  <h5 class='container'>No hay productos agregados</h5>
+{{/if}}
+
+<a href='http://localhost:8080/' class='btn btn-danger btn-custom'>
+  Agregar Producto
+</a>
