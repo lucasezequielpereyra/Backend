@@ -1,0 +1,49 @@
+[
+  {
+    "id": "6bb3d04b-4b93-453f-8d9c-0b18444ab505",
+    "timestamp": "2/17/2022, 7:16:40 PM",
+    "products": [
+      {
+        "id": "0418a999-677a-4a0f-9364-3f0fbff7812b",
+        "timestamp": "2/16/2022, 9:57:38 PM",
+        "name": "editadaso",
+        "description": "Producto editadaso",
+        "code": "",
+        "url": "https://via.placeholder.com/350x150",
+        "price": 999,
+        "stock": 9
+      },
+      {
+        "id": "35b2ed7a-8da5-4254-b26c-311e46c56b8a",
+        "timestamp": "2/16/2022, 9:56:01 PM",
+        "name": "producto3",
+        "description": "Producto de prueba3",
+        "code": "",
+        "url": "https://via.placeholder.com/350x150",
+        "price": 999,
+        "stock": 9
+      }
+    ]
+  },
+  {
+    "id": "dbda67fe-0717-487b-9214-3d5d0d3607c7",
+    "timestamp": "2/17/2022, 7:16:42 PM",
+    "products": [
+      {
+        "id": "35b2ed7a-8da5-4254-b26c-311e46c56b8a",
+        "timestamp": "2/16/2022, 9:56:01 PM",
+        "name": "producto3",
+        "description": "Producto de prueba3",
+        "code": "",
+        "url": "https://via.placeholder.com/350x150",
+        "price": 999,
+        "stock": 9
+      }
+    ]
+  },
+  {
+    "id": "b6df7221-ce49-4e1f-a950-86e41bc6e75c",
+    "timestamp": "2/17/2022, 7:54:58 PM",
+    "products": []
+  }
+]

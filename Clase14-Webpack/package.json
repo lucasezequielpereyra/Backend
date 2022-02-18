@@ -1,0 +1,29 @@
+{
+  "name": "clase14-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js ",
+    "build": "webpack ./a1.js ./a2.js ./a3.js --mode=production",
+    "dev": "webpack ./class/Container.js ./Helpers/getData.js ./Helpers/isIn.js ./Helpers/writeData.js  -w --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "express": "^4.17.2",
+    "uuid": "^8.3.2",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.15"
+  }
+}
