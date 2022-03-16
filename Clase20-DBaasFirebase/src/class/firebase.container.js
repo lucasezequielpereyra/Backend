@@ -24,6 +24,8 @@ class FirebaseContainer {
         id: doc.id,
         name: doc.data().name,
         price: doc.data().price,
+        timestamp: doc.data().timestamp,
+        products: doc.data().products,
       }));
       return response;
     } catch (error) {

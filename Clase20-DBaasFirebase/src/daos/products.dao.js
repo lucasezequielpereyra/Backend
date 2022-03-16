@@ -19,12 +19,11 @@ class ProductsDao extends MongoContainer {
     });
   }
 
-  async createProductDao(name, price, img) {
+  async createProductDao(name, price) {
     try {
       await this.collection.create({
         name: name,
         price: price,
-        img: img,
       });
     } catch (error) {
       return error;

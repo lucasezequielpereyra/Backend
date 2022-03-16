@@ -1,5 +1,6 @@
 import FirebaseContainer from '../class/firebase.container';
 const now = Date;
+import admin from 'firebase-admin';
 
 class CartFirebaseDao extends FirebaseContainer {
   constructor() {
@@ -9,7 +10,7 @@ class CartFirebaseDao extends FirebaseContainer {
   async createCartDao() {
     try {
       let doc = this.collection.doc();
-      return await doc.create();
+      return await doc.create({ id: doc.id, timestamp: now() });
     } catch (error) {
       return error;
     }
@@ -17,7 +18,10 @@ class CartFirebaseDao extends FirebaseContainer {
 
   async deletePrductById(idCart, idProduct) {
     try {
-      console.log('updated cart firebase');
+      const doc = this.collection.doc(idCart);
+      return await doc.update({
+        products: admin.firestore.FieldValue.arrayRemove(idProduct),
+      });
     } catch (error) {
       return error;
     }
@@ -27,7 +31,7 @@ class CartFirebaseDao extends FirebaseContainer {
     try {
       const doc = this.collection.doc(idCart);
       return await doc.update({
-        products: idProduct,
+        products: admin.firestore.FieldValue.arrayUnion(idProduct),
       });
     } catch (error) {
       return error;
