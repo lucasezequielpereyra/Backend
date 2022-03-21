@@ -36,7 +36,9 @@ class ProductsDao extends MongoContainer {
         { _id: id },
         { name: name, price: price },
       );
-    } catch (error) {}
+    } catch (error) {
+      console.error(error);
+    }
   }
 }
 
