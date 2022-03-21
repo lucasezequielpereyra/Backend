@@ -1,6 +1,5 @@
 import MongoContainer from '../Class/mongodb.container';
 import { Schema } from 'mongoose';
-const now = Date;
 
 class MessagesDao extends MongoContainer {
   constructor() {
@@ -18,7 +17,6 @@ class MessagesDao extends MongoContainer {
         },
         timestamps: {
           type: String,
-          default: now(),
         },
       },
       {
@@ -32,6 +30,7 @@ class MessagesDao extends MongoContainer {
       return await this.collection.create({
         author: idAuthor,
         text: text,
+        timestamps: new Date(),
       });
     } catch (error) {
       console.error(error);
@@ -40,7 +39,10 @@ class MessagesDao extends MongoContainer {
 
   async listMessages() {
     try {
-      return await this.collection.find({}).populate({ path: 'author' });
+      return await this.collection
+        .find({})
+        .sort({ timestamps: -1 })
+        .populate({ path: 'author' });
     } catch (error) {
       return error;
     }

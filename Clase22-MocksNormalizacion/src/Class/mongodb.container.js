@@ -1,7 +1,9 @@
 import mongoose from 'mongoose';
 
 mongoose
-  .connect('mongodb://localhost/clase22')
+  .connect(
+    'mongodb+srv://lucasezequiel:riverplate123@cluster0.qzap6.mongodb.net/clase22?retryWrites=true&w=majority',
+  )
   .then(() => console.log('mongo db is connected'))
   .catch(error => console.log(error));
 

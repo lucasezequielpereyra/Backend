@@ -1,5 +1,4 @@
 import MongoContainer from '../Class/mongodb.container';
-import { Schema } from 'mongoose';
 import { faker } from '@faker-js/faker';
 
 class AuthorsDao extends MongoContainer {
@@ -21,7 +20,6 @@ class AuthorsDao extends MongoContainer {
         },
         avatar: {
           type: String,
-          default: faker.image.avatar(),
         },
       },
       {
@@ -37,6 +35,7 @@ class AuthorsDao extends MongoContainer {
         lastName: lastName,
         age: age,
         alias: alias,
+        avatar: faker.image.avatar(),
       });
     } catch (error) {
       console.error(error);
