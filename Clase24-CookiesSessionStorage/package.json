@@ -1,0 +1,35 @@
+{
+  "name": "clase22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "dev": "nodemon --exec ./node_modules/.bin/babel-node src/index.js",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "connect-mongo": "^4.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "knex": "^1.0.3",
+    "mongoose": "^6.2.7",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.3.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@faker-js/faker": "^6.0.0"
+  }
+}

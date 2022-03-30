@@ -1,0 +1,23 @@
+<h3 class='container'>
+  Products Mock
+</h3>
+
+<h3 class='container'>
+  {{#if products}}
+  <div class='cart-container container-lg'>
+    {{#each products}}
+      <div class='cart-item'>
+        <img src={{image}} alt='Imagen Producto' />
+        <span>
+          {{name}}
+        </span>
+        <span>
+          ${{price}}
+        </span>
+      </div>
+    {{/each}}
+  </div>
+{{else}}
+  <h5 class='container'>No hay productos agregados</h5>
+{{/if}}
+</h3>
