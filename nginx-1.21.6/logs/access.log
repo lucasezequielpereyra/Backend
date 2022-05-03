@@ -49,3 +49,5 @@
 127.0.0.1 - - [20/Apr/2022:21:15:37 -0300] "GET /info HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
 127.0.0.1 - - [20/Apr/2022:21:19:12 -0300] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8080/info" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
 127.0.0.1 - - [20/Apr/2022:21:19:14 -0300] "GET /info HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+127.0.0.1 - - [20/Apr/2022:21:21:07 -0300] "GET /info HTTP/1.1" 200 348 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+127.0.0.1 - - [20/Apr/2022:21:21:53 -0300] "GET /random/ HTTP/1.1" 200 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
