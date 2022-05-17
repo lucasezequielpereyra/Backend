@@ -1,0 +1,5 @@
+2022-05-15T21:11:11.032Z [31merror[39m: 	options usecreateindex, usefindandmodify are not supported
+2022-05-16T23:42:28.341Z [31merror[39m: 	Cannot read properties of undefined (reading 'avatar')
+2022-05-16T23:43:11.775Z [31merror[39m: 	Cannot read properties of undefined (reading 'avatar')
+2022-05-16T23:44:26.246Z [31merror[39m: 	Cannot read properties of undefined (reading 'file')
+2022-05-16T23:45:38.226Z [31merror[39m: 	Cannot read properties of undefined (reading 'path')
