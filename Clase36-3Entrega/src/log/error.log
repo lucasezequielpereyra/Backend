@@ -3,3 +3,38 @@
 2022-05-16T23:43:11.775Z [31merror[39m: 	Cannot read properties of undefined (reading 'avatar')
 2022-05-16T23:44:26.246Z [31merror[39m: 	Cannot read properties of undefined (reading 'file')
 2022-05-16T23:45:38.226Z [31merror[39m: 	Cannot read properties of undefined (reading 'path')
+2022-05-18T15:43:10.827Z [31merror[39m: 	Password is not valid
+2022-05-18T15:43:48.987Z [31merror[39m: 	User not found
+2022-05-18T15:43:48.989Z [31merror[39m: 	Cannot read properties of null (reading 'password')
+2022-05-18T15:45:20.371Z [31merror[39m: 	Password is not valid
+2022-05-18T15:45:20.380Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:45:34.764Z [31merror[39m: 	Password is not valid
+2022-05-18T15:45:34.768Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:46:39.958Z [31merror[39m: 	User not found
+2022-05-18T15:46:39.966Z [31merror[39m: 	Cannot read properties of null (reading 'password')
+2022-05-18T15:46:43.032Z [31merror[39m: 	Password is not valid
+2022-05-18T15:46:43.035Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:46:59.522Z [31merror[39m: 	User not found
+2022-05-18T15:46:59.524Z [31merror[39m: 	Cannot read properties of null (reading 'password')
+2022-05-18T15:47:41.307Z [31merror[39m: 	User not found
+2022-05-18T15:47:41.315Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:48:12.645Z [31merror[39m: 	User not found
+2022-05-18T19:05:26.749Z [31merror[39m: 	Cannot read properties of undefined (reading 'sendMail')
+2022-05-18T22:17:33.704Z [31merror[39m: 	cart._id.substring is not a function
+2022-05-18T23:11:15.374Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-18T23:15:42.156Z [31merror[39m: 	Cannot read properties of undefined (reading 'user')
+2022-05-18T23:25:29.025Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:26:11.317Z [31merror[39m: 	Cannot read properties of undefined (reading 'user')
+2022-05-18T23:26:16.500Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-18T23:26:19.932Z [31merror[39m: 	Cannot read properties of undefined (reading 'user')
+2022-05-18T23:26:41.459Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-18T23:28:37.812Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:28:47.924Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:29:07.642Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:58:10.511Z [31merror[39m: 	Cannot read properties of undefined (reading 'newUserEmail')
+2022-05-19T00:13:25.532Z [31merror[39m: 	User not found
+2022-05-19T00:15:04.847Z [31merror[39m: 	Message cannot have the same To and From for account ACbc80067af2fc4ceaf0d7969920dd1624
+2022-05-19T00:15:48.584Z [31merror[39m: 	Twilio could not find a Channel with the specified From address
+2022-05-19T00:21:37.934Z [31merror[39m: 	Twilio could not find a Channel with the specified From address
+2022-05-19T00:29:29.677Z [31merror[39m: 	Twilio could not find a Channel with the specified From address
+2022-05-19T00:29:57.507Z [31merror[39m: 	message is not defined

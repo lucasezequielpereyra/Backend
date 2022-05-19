@@ -7,7 +7,11 @@ import MongoStore from "connect-mongo";
 import passport from "passport";
 import path from "path";
 import logger from "./config/winston";
-import authRoutes from "./routes/auth.route";
+import authRoutes from "./routes/auth.routes";
+import categoryRoutes from "./routes/category.routes";
+import productRoutes from "./routes/product.routes";
+import cartRoutes from "./routes/cart.routes";
+import productModel from "./models/product.model";
 
 const app = express();
 
@@ -16,7 +20,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "../public")));
 
 /*    TEMPLATE ENGINE     */
 const viewPath = path.join(__dirname, "../views");
@@ -38,20 +42,38 @@ app.use(
     },
   })
 );
+/*    PASSPORT     */
 import "./config/passport";
 app.use(passport.initialize());
 app.use(passport.session());
 
 /*    Statics end points    */
 app.get("/", (req, res) => {
-  res.render("index");
+  req.session?.user ? res.redirect("/dash") : res.render("index");
 });
+
 app.get("/register", (req, res) => {
   res.render("register");
 });
 
+app.get("/dash", async (req, res) => {
+  const products = await productModel.find(); // products for dashboard
+  const cart = req.session?.cart;
+
+  req.session?.user
+    ? res.render("dash-products", {
+        user: req.session.user,
+        products: products,
+        cart: cart,
+      })
+    : res.redirect("/");
+});
+
 /*    Routes    */
 app.use("/auth", authRoutes);
+app.use("/category", categoryRoutes);
+app.use("/product", productRoutes);
+app.use("/cart", cartRoutes);
 
 /*    404 not found route     */
 app.get("*", (req, res) => {

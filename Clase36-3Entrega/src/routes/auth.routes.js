@@ -7,5 +7,6 @@ const uploadAvatar = multer({ dest: "public/assets/uploads/" });
 
 router.post("/signup", [uploadAvatar.single("file")], authCtrl.signUp);
 router.post("/login", authCtrl.login);
+router.get("/logout", authCtrl.logout);
 
 export default router;
