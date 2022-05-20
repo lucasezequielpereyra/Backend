@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <%- include("dashboard") %>
+  <title>Dashboard - APP</title>
+  <body>
+    <!-- LIST PRODUCTS -->
+    <% if( typeof(products) !=="undefined"){ %>
+      <div class="container-products">
+        <% products.forEach(function(product) {%>
+          <form class="card card-product" style="width: 18rem;" action="/cart/add" method="post">
+            <img class="card-img-top img-prod" src="<%=product.img %>" alt="Product Img">
+            <div class="card-body">
+              <h5 class="card-title"><%=product.name %></h5>
+              <p class="card-text"><%=product.description %> </p>
+              <input hidden type="text" name="productId" value="<%=product._id %>" class="p-id">
+              <button class="btn btn-primary custom-btn" type="submit">Agregar</button>
+            </div>
+          </form>
+        <%});%>
+      </div>
+    <% } else{ %>
+    <h5 h5 class="container">No hay productos en el listado</h5>
+    <% } %>
+    <% if( typeof(cart) !=="undefined") {%>
+      <div class="container-button-cart">
+        <button class="btn-cart" onclick="location.href='/cart/buy'">Ver Carrito</button>
+      </div>
+    <% } %>
+  </body>
+</html>
