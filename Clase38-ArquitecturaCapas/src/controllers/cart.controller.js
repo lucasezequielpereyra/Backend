@@ -12,9 +12,7 @@ export const newCart = async (req, res) => {
     const product = await cartService.findOneWithProduct(user._id, productId);
     if (cart) {
       if (product) {
-        res.status(200).json({
-          message: "Product already in cart",
-        });
+        res.status(200).redirect("/dash");
       } else {
         await cartService.findOneAndUpdate(user._id, productId);
 

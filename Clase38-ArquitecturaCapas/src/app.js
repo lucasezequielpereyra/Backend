@@ -49,18 +49,14 @@ app.use(passport.session());
 
 /*    Statics end points    */
 app.get("/", (req, res) => {
-  req.session?.user ? res.redirect("/dash") : res.render("index");
-});
-
-app.get("/register", (req, res) => {
-  res.render("register");
+  req.isAuthenticated() ? res.redirect("/dash") : res.render("index");
 });
 
 app.get("/dash", async (req, res) => {
   const products = await productModel.find(); // products for dashboard
   const cart = req.session?.cart;
 
-  req.session?.user
+  req.isAuthenticated()
     ? res.render("dash-products", {
         user: req.session.user,
         products: products,

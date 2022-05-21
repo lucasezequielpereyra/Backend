@@ -51,3 +51,4 @@
 2022-05-20T00:53:21.633Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
 2022-05-20T01:03:02.093Z [31merror[39m: 	Cannot read properties of null (reading '_id')
 2022-05-20T01:03:46.964Z [31merror[39m: 	Cannot read properties of null (reading '_id')
+2022-05-20T22:44:32.159Z [31merror[39m: 	Cast to string failed for value "{ email: 'lucas.pereyra5@gmail.com', password: 'asdasd123' }" (type Object) at path "email" for model "User"

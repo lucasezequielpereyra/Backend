@@ -1,4 +1,5 @@
 import logger from "../config/winston";
+import passport from "passport";
 import * as mailService from "../services/mail.service";
 import * as authService from "../services/auth.service";
 import * as cartService from "../services/cart.service";
@@ -24,46 +25,31 @@ export const signUp = async (req, res) => {
   }
 };
 
-export const login = async (req, res) => {
-  try {
-    const { email, password } = req.body;
-    const user = await authService.findOnebyEmail(email);
-
-    if (!user) {
-      logger.error.error("User not found");
-      res.status(400).redirect("/");
-      return;
-    } else {
-      const isPasswordValid = await authService.comparePassword(
-        password,
-        user.password
-      );
-      if (!isPasswordValid) {
-        logger.error.error("Password is not valid");
-        res.status(400).redirect("/");
-        return;
-      }
-    }
-
-    req.session.user = user;
-    logger.info.info("User logged in");
-    res.status(200).redirect("/dash");
-  } catch (err) {
-    logger.error.error(err);
-    res.status(400).render("index");
-  }
-};
-
-export const logout = async (req, res) => {
+export const signOut = async (req, res) => {
   try {
     // destroy cart
     if (req.session.cart) {
       await cartService.findByIdAndDelete(req.session.cart._id);
     }
 
-    req.session.destroy();
-    logger.info.info("User logged out");
-    res.status(200).redirect("/");
+    // destroy session
+    req.session.destroy(() => {
+      logger.info.info("User logged out");
+      res.redirect("/");
+    });
+  } catch (err) {
+    logger.error.error(err);
+    res.status(400).redirect("/");
+  }
+};
+
+export const succesredirect = async (req, res) => {
+  try {
+    let user = await authService.findOneById(req.session.passport.user);
+    user.password = null;
+    req.session.user = user;
+
+    res.redirect("/dash");
   } catch (err) {
     logger.error.error(err);
     res.status(400).redirect("/");

@@ -14,7 +14,7 @@ export const newUser = async (user, avatar) => {
   return await newUser.save();
 };
 
-export const findOnebyEmail = async (email) => {
+export const findOneByEmail = async (email) => {
   return await UserModel.findOne({ email: email });
 };
 
