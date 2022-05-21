@@ -2,6 +2,7 @@ import { compareSync } from "bcryptjs";
 import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import * as authService from "../services/auth.service";
+import logger from "./winston";
 
 passport.use(
   new LocalStrategy((username, password, done) => {
@@ -19,6 +20,7 @@ passport.use(
         }
       })
       .catch((err) => {
+        logger.error.error(err);
         done(err);
       });
   })
@@ -37,6 +39,7 @@ passport.deserializeUser((id, done) => {
       done(null, user);
     })
     .catch((err) => {
+      logger.error.error(err);
       done(err);
     });
 });

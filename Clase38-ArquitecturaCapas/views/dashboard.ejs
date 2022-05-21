@@ -3,18 +3,20 @@
   <%- include("template/head") %>
   <title>Dashboard - APP</title>
   <body>
-    <div class="dash-header-container">
-      <div class="usr-info-container">
-        <div class="usr-avatar-container">
-          <img src=<%- user.avatar %> alt=<%- user.name %>>
+    <% if( typeof(user) !=="undefined") { %>
+      <div class="dash-header-container">
+        <div class="usr-info-container">
+          <div class="usr-avatar-container">
+            <img src=<%- user.avatar %> alt=<%- user.name %>>
+          </div>
+          <div class="usr-name-container">
+            <p>Bienvenidx, <%- user.name %></p>
+          </div>
         </div>
-        <div class="usr-name-container">
-          <p>Bienvenidx, <%- user.name %></p>
+        <div class="usr-logout-container">
+          <a class="a-usr-logout" href="/auth/logout">Cerrar sesión</a>
         </div>
       </div>
-      <div class="usr-logout-container">
-        <a class="a-usr-logout" href="/auth/logout">Cerrar sesión</a>
-      </div>
-    </div>
+    <% } %>
   </body>
 </html>

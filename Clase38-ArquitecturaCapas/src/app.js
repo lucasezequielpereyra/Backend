@@ -11,7 +11,7 @@ import authRoutes from "./routes/auth.routes";
 import categoryRoutes from "./routes/category.routes";
 import productRoutes from "./routes/product.routes";
 import cartRoutes from "./routes/cart.routes";
-import productModel from "./models/product.model";
+import * as productService from "./services/product.service";
 
 const app = express();
 
@@ -53,16 +53,25 @@ app.get("/", (req, res) => {
 });
 
 app.get("/dash", async (req, res) => {
-  const products = await productModel.find(); // products for dashboard
-  const cart = req.session?.cart;
+  try {
+    const products = await productService.getProducts(); // products for dashboard
+    const cart = req.session?.cart;
 
-  req.isAuthenticated()
-    ? res.render("dash-products", {
-        user: req.session.user,
-        products: products,
-        cart: cart,
-      })
-    : res.redirect("/");
+    if (req.session?.user) {
+      req.isAuthenticated()
+        ? res.render("dash-products", {
+            user: req.session.user,
+            products: products,
+            cart: cart,
+          })
+        : res.redirect("/");
+    } else {
+      res.redirect("/");
+    }
+  } catch (err) {
+    logger.error.error(err);
+    res.status(500).redirect("/");
+  }
 });
 
 /*    Routes    */
