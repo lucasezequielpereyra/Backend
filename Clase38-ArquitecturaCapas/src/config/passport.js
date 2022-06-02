@@ -1,30 +1,10 @@
-import { compareSync } from "bcryptjs";
-import passport from "passport";
-import { Strategy as LocalStrategy } from "passport-local";
-import * as authService from "../services/auth.service";
-import logger from "./winston";
+import { compareSync } from 'bcryptjs';
+import passport from 'passport';
+import { Strategy as LocalStrategy } from 'passport-local';
+import * as authService from '../services/auth.service';
+import logger from './winston';
 
-passport.use(
-  new LocalStrategy((username, password, done) => {
-    authService
-      .findOneByEmail(username)
-      .then((user) => {
-        if (user) {
-          if (compareSync(password, user.password)) {
-            done(null, user);
-          } else {
-            done(null, false);
-          }
-        } else {
-          done(null, false);
-        }
-      })
-      .catch((err) => {
-        logger.error.error(err);
-        done(err);
-      });
-  })
-);
+passport.use(new LocalStrategy((username, password, done) => {}));
 
 // Persist user data inside session
 passport.serializeUser((user, done) => {
@@ -35,10 +15,10 @@ passport.serializeUser((user, done) => {
 passport.deserializeUser((id, done) => {
   authService
     .findOneById(id)
-    .then((user) => {
+    .then(user => {
       done(null, user);
     })
-    .catch((err) => {
+    .catch(err => {
       logger.error.error(err);
       done(err);
     });
