@@ -9,11 +9,13 @@ class MongoClient {
 
   async connect() {
     try {
-      this.client.connect(process.env.DATABASE_CONNECT, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        serverSelectionTimeoutMS: 5000,
-      });
+      if (!this.connected) {
+        this.client.connect(process.env.DATABASE_CONNECT, {
+          useNewUrlParser: true,
+          useUnifiedTopology: true,
+          serverSelectionTimeoutMS: 5000,
+        });
+      }
       this.connected = true;
     } catch (err) {
       logger.error.error(err);
