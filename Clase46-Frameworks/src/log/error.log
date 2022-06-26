@@ -1,0 +1,343 @@
+2022-05-15T21:11:11.032Z [31merror[39m: 	options usecreateindex, usefindandmodify are not supported
+2022-05-16T23:42:28.341Z [31merror[39m: 	Cannot read properties of undefined (reading 'avatar')
+2022-05-16T23:43:11.775Z [31merror[39m: 	Cannot read properties of undefined (reading 'avatar')
+2022-05-16T23:44:26.246Z [31merror[39m: 	Cannot read properties of undefined (reading 'file')
+2022-05-16T23:45:38.226Z [31merror[39m: 	Cannot read properties of undefined (reading 'path')
+2022-05-18T15:43:10.827Z [31merror[39m: 	Password is not valid
+2022-05-18T15:43:48.987Z [31merror[39m: 	User not found
+2022-05-18T15:43:48.989Z [31merror[39m: 	Cannot read properties of null (reading 'password')
+2022-05-18T15:45:20.371Z [31merror[39m: 	Password is not valid
+2022-05-18T15:45:20.380Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:45:34.764Z [31merror[39m: 	Password is not valid
+2022-05-18T15:45:34.768Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:46:39.958Z [31merror[39m: 	User not found
+2022-05-18T15:46:39.966Z [31merror[39m: 	Cannot read properties of null (reading 'password')
+2022-05-18T15:46:43.032Z [31merror[39m: 	Password is not valid
+2022-05-18T15:46:43.035Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:46:59.522Z [31merror[39m: 	User not found
+2022-05-18T15:46:59.524Z [31merror[39m: 	Cannot read properties of null (reading 'password')
+2022-05-18T15:47:41.307Z [31merror[39m: 	User not found
+2022-05-18T15:47:41.315Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2022-05-18T15:48:12.645Z [31merror[39m: 	User not found
+2022-05-18T19:05:26.749Z [31merror[39m: 	Cannot read properties of undefined (reading 'sendMail')
+2022-05-18T22:17:33.704Z [31merror[39m: 	cart._id.substring is not a function
+2022-05-18T23:11:15.374Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-18T23:15:42.156Z [31merror[39m: 	Cannot read properties of undefined (reading 'user')
+2022-05-18T23:25:29.025Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:26:11.317Z [31merror[39m: 	Cannot read properties of undefined (reading 'user')
+2022-05-18T23:26:16.500Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-18T23:26:19.932Z [31merror[39m: 	Cannot read properties of undefined (reading 'user')
+2022-05-18T23:26:41.459Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-18T23:28:37.812Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:28:47.924Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:29:07.642Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-18T23:58:10.511Z [31merror[39m: 	Cannot read properties of undefined (reading 'newUserEmail')
+2022-05-19T00:13:25.532Z [31merror[39m: 	User not found
+2022-05-19T00:15:04.847Z [31merror[39m: 	Message cannot have the same To and From for account ACbc80067af2fc4ceaf0d7969920dd1624
+2022-05-19T00:15:48.584Z [31merror[39m: 	Twilio could not find a Channel with the specified From address
+2022-05-19T00:21:37.934Z [31merror[39m: 	Twilio could not find a Channel with the specified From address
+2022-05-19T00:29:29.677Z [31merror[39m: 	Twilio could not find a Channel with the specified From address
+2022-05-19T00:29:57.507Z [31merror[39m: 	message is not defined
+2022-05-19T23:23:35.612Z [31merror[39m: 	User not found
+2022-05-19T23:23:37.314Z [31merror[39m: 	User not found
+2022-05-19T23:23:38.694Z [31merror[39m: 	User not found
+2022-05-19T23:34:00.595Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-19T23:40:10.266Z [31merror[39m: 	authService.findOne is not a function
+2022-05-19T23:42:11.236Z [31merror[39m: 	authService.findOneById is not a function
+2022-05-20T00:51:30.669Z [31merror[39m: 	Cannot read properties of undefined (reading '_id')
+2022-05-20T00:52:09.404Z [31merror[39m: 	Cannot read properties of undefined (reading 'products')
+2022-05-20T00:52:14.649Z [31merror[39m: 	Cannot read properties of undefined (reading '_id')
+2022-05-20T00:52:18.946Z [31merror[39m: 	Cannot read properties of undefined (reading '_id')
+2022-05-20T00:53:21.633Z [31merror[39m: 	Cannot read properties of undefined (reading 'cart')
+2022-05-20T01:03:02.093Z [31merror[39m: 	Cannot read properties of null (reading '_id')
+2022-05-20T01:03:46.964Z [31merror[39m: 	Cannot read properties of null (reading '_id')
+2022-05-20T22:44:32.159Z [31merror[39m: 	Cast to string failed for value "{ email: 'lucas.pereyra5@gmail.com', password: 'asdasd123' }" (type Object) at path "email" for model "User"
+2022-06-01T22:31:50.100Z [31merror[39m: 	Illegal arguments: string, undefined
+2022-06-01T22:34:02.700Z [31merror[39m: 	Illegal arguments: string, undefined
+2022-06-01T22:35:23.738Z [31merror[39m: 	Illegal arguments: string, undefined
+2022-06-01T22:36:58.186Z [31merror[39m: 	Illegal arguments: string, undefined
+2022-06-01T22:37:33.740Z [31merror[39m: 	Illegal arguments: string, undefined
+2022-06-01T22:38:40.804Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T22:38:40.804Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T22:40:10.264Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T22:40:10.264Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:00:44.876Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:00:44.876Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:02:20.806Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:02:20.806Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:03:38.686Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:03:38.686Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:03:41.348Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:03:41.348Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:28.362Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:28.362Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:40.688Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:40.688Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:42.956Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:42.956Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:44.353Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:44.353Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:45.051Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:45.051Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:45.548Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:45.548Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:45.968Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:45.968Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:04:46.415Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:04:46.415Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:07:53.722Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.105Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.106Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:54.225Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.333Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.335Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:54.442Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.549Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.550Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:54.668Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.773Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.774Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:54.885Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:54.999Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.001Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:55.104Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.216Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.217Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:55.321Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.428Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.429Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:55.533Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.637Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.638Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:55.750Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.853Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:55.854Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:55.962Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:56.067Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:56.068Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:57.222Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:57.223Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:57.335Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:57.450Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:57.451Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:57.559Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:57.668Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:57.669Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:57.782Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:57.885Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:57.886Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:57.986Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.092Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.093Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:58.214Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.317Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.318Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:58.423Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.522Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.523Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:58.634Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.739Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.740Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:58.843Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.948Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:58.950Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:59.058Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:59.219Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:07:59.221Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:07:59.327Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:04.457Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:04.568Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:04.569Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:04.685Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:04.799Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:04.800Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:04.914Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.019Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.020Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:05.126Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.236Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.237Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:05.349Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.455Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.456Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:05.567Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.673Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.674Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:05.778Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.887Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:05.888Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:05.992Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:06.105Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:06.105Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:06.212Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:06.324Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:06.325Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:06.430Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:06.538Z [31merror[39m: 	this.client.close is not a function
+2022-06-01T23:08:06.539Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:40.642Z [31merror[39m: 	MongoClient must be connected to perform this operation
+2022-06-01T23:08:40.642Z [31merror[39m: 		MongoClient must be connected to perform this operation
+2022-06-01T23:08:54.805Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:55.061Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:55.288Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:55.505Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:55.725Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:55.946Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:56.161Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:56.375Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:56.906Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:57.128Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:58.288Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:58.524Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:58.745Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:58.979Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:08:59.215Z [31merror[39m: 	_product2.default.getProducts is not a function
+2022-06-01T23:09:32.576Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:33.082Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:33.301Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:33.542Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:33.767Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:33.991Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:34.216Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:34.435Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:34.640Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:34.850Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:36.219Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:36.458Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:36.678Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:36.895Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:37.111Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:37.330Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:37.543Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:37.754Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:40.436Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:40.643Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:40.869Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:41.082Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:41.293Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:41.515Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:41.721Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:41.928Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:42.137Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:42.360Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:47.726Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:47.940Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:48.167Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:48.377Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:48.610Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:48.827Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:49.038Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:49.259Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:49.469Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:09:49.687Z [31merror[39m: 	_product2.default.findAll is not a function
+2022-06-01T23:20:59.432Z [31merror[39m: 	newCart is not defined
+2022-06-01T23:22:15.159Z [31merror[39m: 	newCart is not defined
+2022-06-01T23:22:18.476Z [31merror[39m: 	newCart is not defined
+2022-06-01T23:22:21.196Z [31merror[39m: 	newCart is not defined
+2022-06-01T23:22:22.767Z [31merror[39m: 	newCart is not defined
+2022-06-01T23:22:24.306Z [31merror[39m: 	newCart is not defined
+2022-06-01T23:39:26.500Z [31merror[39m: 	this.collection.save is not a function
+2022-06-01T23:39:26.500Z [31merror[39m: 		this.collection.save is not a function
+2022-06-01T23:40:34.909Z [31merror[39m: 	Cannot read properties of undefined (reading 'user')
+2022-06-01T23:40:34.909Z [31merror[39m: 		Cannot read properties of undefined (reading 'user')
+2022-06-01T23:50:33.495Z [31merror[39m: 	Cannot read properties of null (reading '_id')
+2022-06-01T23:56:24.634Z [31merror[39m: 	Cannot read properties of null (reading '_id')
+2022-06-08T01:04:14.448Z [31merror[39m: 	Product validation failed: description: Path `description` is required., stock: Path `stock` is required., img: Path `img` is required., name: Path `name` is required., price: Path `price` is required.
+2022-06-08T01:05:15.045Z [31merror[39m: 	Product validation failed: description: Path `description` is required., stock: Path `stock` is required., img: Path `img` is required., name: Path `name` is required., price: Path `price` is required.
+2022-06-08T01:07:13.403Z [31merror[39m: 	Cannot read properties of null (reading '_id')
+2022-06-26T19:17:23.088Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:17:23.088Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:19:00.328Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:19:00.328Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:28:26.516Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:28:26.516Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:31:40.648Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:31:40.648Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:34:21.277Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:34:21.277Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:34:24.400Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:34:24.400Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:34:34.335Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:34:34.335Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:53:04.073Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:53:04.073Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T19:54:29.813Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T19:54:29.813Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T20:07:52.699Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:07:52.699Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T20:10:25.298Z [31merror[39m: 	Error: Illegal arguments: undefined, string
+    at _async (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.hash (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at _callee$ (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\src\models\/user.model.js:42:23)
+    at tryCatch (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+2022-06-26T20:10:25.304Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:13:33.956Z [31merror[39m: 	Error: Illegal arguments: undefined, string
+    at _async (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.hash (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at _callee$ (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\src\models\/user.model.js:42:23)
+    at tryCatch (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+2022-06-26T20:13:33.962Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:13:36.774Z [31merror[39m: 	Error: Illegal arguments: undefined, string
+    at _async (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.hash (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at _callee$ (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\src\models\/user.model.js:42:23)
+    at tryCatch (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+2022-06-26T20:13:36.777Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:13:39.495Z [31merror[39m: 	Error: Illegal arguments: undefined, string
+    at _async (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.hash (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at _callee$ (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\src\models\/user.model.js:42:23)
+    at tryCatch (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\lucas\Documents\Backend-CoderHouse\Clase46-Frameworks\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+2022-06-26T20:13:39.498Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:15:28.461Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:15:28.461Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T20:15:32.257Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:15:32.257Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T20:16:08.613Z [31merror[39m: 	Illegal arguments: undefined, string
+2022-06-26T20:16:08.613Z [31merror[39m: 		Illegal arguments: undefined, string
+2022-06-26T20:16:35.765Z [31merror[39m: 	password is not defined
+2022-06-26T20:16:35.765Z [31merror[39m: 		password is not defined
+2022-06-26T20:16:51.556Z [31merror[39m: 	User validation failed: email: Path `email` is required., password: Path `password` is required., name: Path `name` is required., address: Path `address` is required., age: Path `age` is required., phone: Path `phone` is required.
+2022-06-26T20:16:51.556Z [31merror[39m: 		User validation failed: email: Path `email` is required., password: Path `password` is required., name: Path `name` is required., address: Path `address` is required., age: Path `age` is required., phone: Path `phone` is required.
+2022-06-26T20:17:24.582Z [31merror[39m: 	User validation failed: email: Path `email` is required., password: Path `password` is required., name: Path `name` is required., address: Path `address` is required., age: Path `age` is required., phone: Path `phone` is required.
+2022-06-26T20:17:24.582Z [31merror[39m: 		User validation failed: email: Path `email` is required., password: Path `password` is required., name: Path `name` is required., address: Path `address` is required., age: Path `age` is required., phone: Path `phone` is required.
+2022-06-26T20:17:52.317Z [31merror[39m: 	User validation failed: email: Path `email` is required., password: Path `password` is required., name: Path `name` is required., address: Path `address` is required., age: Path `age` is required., phone: Path `phone` is required.
+2022-06-26T20:17:52.317Z [31merror[39m: 		User validation failed: email: Path `email` is required., password: Path `password` is required., name: Path `name` is required., address: Path `address` is required., age: Path `age` is required., phone: Path `phone` is required.
+2022-06-26T20:20:56.130Z [31merror[39m: 	User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+2022-06-26T20:20:56.130Z [31merror[39m: 		User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+2022-06-26T20:20:58.538Z [31merror[39m: 	User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+2022-06-26T20:20:58.538Z [31merror[39m: 		User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+2022-06-26T21:33:41.788Z [31merror[39m: 	authService.encryptPassword is not a function
+2022-06-26T21:33:46.906Z [31merror[39m: 	authService.encryptPassword is not a function
+2022-06-26T21:35:43.562Z [31merror[39m: 	E11000 duplicate key error collection: clase36.users index: email_1 dup key: { email: "asdasd123" }
+2022-06-26T21:35:43.562Z [31merror[39m: 		E11000 duplicate key error collection: clase36.users index: email_1 dup key: { email: "asdasd123" }
+2022-06-26T21:36:30.347Z [31merror[39m: 	E11000 duplicate key error collection: clase36.users index: email_1 dup key: { email: "asdasd123" }
+2022-06-26T21:36:30.347Z [31merror[39m: 		E11000 duplicate key error collection: clase36.users index: email_1 dup key: { email: "asdasd123" }
+2022-06-26T21:39:57.567Z [31merror[39m: 	E11000 duplicate key error collection: clase36.users index: email_1 dup key: { email: "asdasd123" }
+2022-06-26T21:39:57.567Z [31merror[39m: 		E11000 duplicate key error collection: clase36.users index: email_1 dup key: { email: "asdasd123" }
